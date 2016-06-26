@@ -2,7 +2,7 @@
 ## Example of how to use the visual logger to better follow the flow of animation transitions.
 
 The [Visual Logger](https://docs.unrealengine.com/latest/INT/Gameplay/Tools/VisualLogger/) is a powerful Unreal Engine tool.
-It allows you to easily have access to a temporal log on your project.
+It allows you to easily have access to a chronological log on your project.
 
 
 ![](https://docs.unrealengine.com/latest/images/Gameplay/Tools/VisualLogger/image_0.jpg)
