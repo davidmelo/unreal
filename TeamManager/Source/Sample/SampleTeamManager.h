@@ -47,4 +47,5 @@ private:
 	UPROPERTY(Category = "Team", VisibleAnywhere, meta = (Tooltip = "Teams"))
 	TArray<class ASampleTeam*> Teams;
 	
+	int32 CurrentTeamID = 0;
 };

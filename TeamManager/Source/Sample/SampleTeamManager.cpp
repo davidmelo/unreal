@@ -12,7 +12,7 @@ int32 ASampleTeamManager::CreateTeam()
 	SpawnInfo.ObjectFlags |= RF_Transient;
 	ASampleTeam* Team = GetWorld()->SpawnActor<ASampleTeam>(TeamClass, SpawnInfo);
 
-	int32 TeamID = Teams.Num();
+	int32 TeamID = CurrentTeamID++;
 	Team->SetID(TeamID);
 	Teams.Add(Team);
 
